@@ -1,0 +1,8 @@
+ Write a Python program to read last n lines of a file.
+FI=open("E:\File H\hell.txt","r")
+n=int(input("enter no. of line to be obtained: "))
+a=FI.readlines()
+x=len(a)
+for i in range(n):
+    print(a[x-(n-i)],end="")
+    
