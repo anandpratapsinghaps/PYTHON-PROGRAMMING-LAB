@@ -1,0 +1,12 @@
+#4: Define a function that accepts lowercase words and 
+#returns uppercase words.
+def uppr(s):
+    a=""
+    for i in s:
+        if 97<=ord(i)<=122:
+            a+=chr(ord(i)-32)
+        else:
+            a+=i    
+    return a        
+b=input("enter string in lower  ")
+print(uppr(b))   
