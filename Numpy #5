@@ -1,0 +1,7 @@
+Sort 2D Numpy in Descending Order
+import numpy as np
+ 
+the_array = np.array([[49, 7, 4], [27, 13, 35]])
+ 
+sort_array = np.sort(the_array)[::1]
+print(sort_array)
