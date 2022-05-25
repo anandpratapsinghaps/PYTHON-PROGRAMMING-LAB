@@ -1,0 +1,6 @@
+#4. Write a Python program to multiply all the items in a dictionary. 
+dict=eval(input("enter a dict: "))
+product=1
+for i in dict:
+    product*=dict[i]
+print("product: ",product)    
