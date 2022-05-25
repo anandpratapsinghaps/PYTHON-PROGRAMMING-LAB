@@ -1,0 +1,15 @@
+Append Numpy Array
+import numpy as np
+ 
+the_array = np.array([[0, 1], [2, 3]])
+ 
+row_to_append = np.array([[4, 5]])
+ 
+the_array = np.append(the_array, row_to_append, 0)
+print(the_array)
+ 
+print('*' * 10)
+ 
+columns_to_append = np.array([[7], [8], [9]])
+the_array = np.append(the_array, columns_to_append, 1)
+print(the_array)
