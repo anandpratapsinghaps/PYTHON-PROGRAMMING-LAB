@@ -1,0 +1,13 @@
+#3. Program to find the sum of digits of an entered number.
+
+#METHOD=1
+
+n=input("enter a number: ")
+a=len(n)
+sum=0
+i=0
+while i<a:
+    sum+=(int(n[i]))
+    i+=1
+print(sum)   
+
