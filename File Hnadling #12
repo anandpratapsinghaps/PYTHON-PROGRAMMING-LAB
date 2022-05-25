@@ -1,0 +1,13 @@
+#to write a file 
+
+f=open("E:\File H\hell.txt",'w') 
+f.write("                  ---:FIRST STUDENT DETAIL:---    \n\n\n")
+name=input("enter name: ")
+section=input("enter section: ")
+coll=input("enter college name: ")
+uni_roll=int(input("enter roll no.: "))
+data = f"NAME: {name}\nSECTION: {section}\nCOLLLEGE: {coll}\nUNIVERSITY ROLL NO.: {uni_roll}"
+f.write(data)
+f.write("\n\n\n")
+print("\nYour data is sucessfully saved. ")
+f.close()
