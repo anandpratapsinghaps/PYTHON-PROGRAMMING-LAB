@@ -1,0 +1,13 @@
+How do I randomly select rows from NumPy array
+# import module
+import numpy as np
+ 
+# create 2D array
+the_array = np.arange(50).reshape((5, 10))
+ 
+# row manipulation
+np.random.shuffle(the_array)
+ 
+# display random rows
+rows = the_array[:2, :]
+print(rows)
