@@ -1,0 +1,7 @@
+#6. Write a Python program to map two lists into a dictionary. 
+a=list(map(str,input("list1: ").split()))
+b=list(map(int,input("list2: ").split()))
+dct=list(zip(a,b))
+print(dct)
+
+
