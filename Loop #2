@@ -1,0 +1,8 @@
+#2. Program to find the factorial of an entered number.
+
+n=eval(input(""))
+i=n-1
+while i>=1:
+    n*=i
+    i-=1
+print("factorial",n)
