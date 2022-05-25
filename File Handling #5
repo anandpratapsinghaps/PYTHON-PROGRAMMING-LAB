@@ -1,0 +1,7 @@
+ Write a Python program to read first n lines of a file.
+
+f=open(r"E:\File H\ff.txt","r")
+n=int(input("enter no. of lines: "))
+for i in range(n):
+    print(f.readline(),end="")
+    
