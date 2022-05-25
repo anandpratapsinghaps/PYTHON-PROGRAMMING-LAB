@@ -1,0 +1,8 @@
+# 1. Write a Python script to merge two Python dictionaries. 
+a=eval(input("enter 1st dictionary: "))
+b=eval(input("enter 2nd dictionary: "))
+#for i in b:
+#    a[i]=b[i]
+#print(a) 
+a.update(b)
+print(a)   
