@@ -1,0 +1,11 @@
+''' Write a Python program to reverse a string.
+Sample String: "1234abcd"
+Expected Output: "dcba4321"'''
+
+def reverse(s):
+    a=list(s)
+    a.reverse()
+    out="".join(a)
+    return out
+print(reverse(input()))
+
