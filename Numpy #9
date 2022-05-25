@@ -1,0 +1,10 @@
+Checking if a value exists in an Numpy array
+import numpy as np
+ 
+the_array = np.array([[1, 2], [3, 4]])
+n = 3
+ 
+if n in the_array:
+    print(True)
+else:
+    print(False)
