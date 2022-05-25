@@ -1,0 +1,5 @@
+#5. Write a Python program to remove a key from a dictionary. 
+dct=eval(input("enter dict: "))
+a=input("enter key for remove: ")
+del dct[a]
+print(dct)
