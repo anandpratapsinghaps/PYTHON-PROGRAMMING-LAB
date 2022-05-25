@@ -1,0 +1,14 @@
+#2: Define a function which counts vowels and consonant in 
+#a word.
+
+def coun_t(s):
+    a,b=0,0
+    for i in s:
+        if i in "aeiou":
+            a+=1
+        elif i.isalpha():
+            b+=1
+    print(f"vowels: {a}\nconsonant: {b}") 
+z=input()
+z=z.lower()
+coun_t(z)           
