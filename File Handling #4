@@ -1,0 +1,5 @@
+ Write a Python program to read an entire text file.
+
+f=open(r"E:\File H\ff.txt",'r')
+a=f.read()
+print(a)
