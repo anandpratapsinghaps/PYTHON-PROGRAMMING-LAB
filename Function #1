@@ -1,0 +1,12 @@
+#1: Define a function that accepts roll number and returns 
+#whether the student is present or absent.
+ 
+def roll_n(n):
+    if n in a:
+        print("present")
+    else:
+        print("absent")     
+a=range(30,58) 
+b=int(input())
+roll_n(b)
+
