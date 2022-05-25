@@ -1,0 +1,13 @@
+#WAP to print all prime number between 100 to 200
+
+a=range(100,201)
+for i in a:
+    for c in range(2,i):
+        if i%c==0:
+            break
+    else:
+        print(i,end=",")
+print("is prime number.")        
+
+
+     
